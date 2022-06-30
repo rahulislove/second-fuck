@@ -1,0 +1,188 @@
+.photo img {
+    position: relative;
+}
+
+.loltey {
+    color: white;
+    position: absolute;
+    top: 45%;
+    right: 0;
+    left: 0;
+    text-align: center;
+
+
+    transform: translateY(-50%);
+}
+
+button {
+    margin-top: 20px;
+    color: white;
+}
+
+.loltey h2 {
+    font-size: 50px;
+}
+
+.loltey p {
+    font-size: 25px;
+}
+
+.loltey button {
+    background-color: transparent;
+    border: transparent;
+    border: 0.5px solid white;
+    padding: 6px 20px 6px 20px;
+    border-radius: 50px;
+    font-size: larger;
+}
+
+.col {
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+.col h1 {
+    font-size: 33px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.col p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.nav-item {
+    transition: ease-out 0.3s;
+    position: relative;
+    padding: 0 10px;
+
+}
+
+.nav-item:after {
+    position: absolute;
+    content: "";
+    background-color: #0dace6d7;
+    height: 3px;
+    width: 0px;
+    left: 0px;
+    bottom: -10px;
+    transition: 0.5s;
+
+
+}
+
+.nav-item:hover {
+    width: 100%;
+
+}
+
+.gallary img {
+    margin-bottom: 10px;
+}
+
+.colu img {
+    height: 200px;
+    width: 200px;
+    clip-path: circle();
+}
+
+.colu {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+
+.row-col {
+    width: 350px;
+
+}
+
+.plan {
+    margin-bottom: 2px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #0dace6d7;
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+.price {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: rgb(182, 198, 212);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 2px;
+
+}
+
+.provid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(84, 88, 92);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 2px;
+
+
+}
+
+.switch {
+    background-color: rgb(220, 227, 233);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+
+}
+
+.switch button {
+    border: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #0dace6d7;
+    padding: 10px 35px 10px 35px;
+    border-color: #0dace6d7;
+
+}
+.bur{text-align: center;
+margin-top: 100px;
+margin-bottom:100px;
+margin-left: 80px;
+margin-right: 80px;
+}
+.bur h5{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: rgb(72, 28, 11);
+}
+.bur h3{
+    color: rgb(56, 94, 118);
+}
+.bur h1{
+    color: rgb(180, 100, 183);
+
+}
+.bur h1 {
+    margin-left: 2%;
+    color: rgb(192, 161, 161);
+    margin-top: 1%;
+    
+}
+.row{
+    color: rgb(25, 8, 8);
+}
+.rong button{
+    background-color: blue;
+    margin-top: 20px;
+    border-color: blue;
+}
+.providing{
+    color: black;
+}
